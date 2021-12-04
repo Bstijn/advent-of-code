@@ -18,8 +18,7 @@ namespace day_two
     }
     public class Class1
     {
-        public List<Movement> movements = new List<Movement>(){ new Movement {Type=MovementType.Forward, Amount= 9 },
-new Movement{Type= MovementType.Forward , Amount=7 },
+        public List<Movement> movements = new List<Movement>(){ new Movement {Type=MovementType.Forward, Amount= 9 },new Movement{Type= MovementType.Forward , Amount=7 },
 new Movement{Type= MovementType.Forward , Amount=4},
 new Movement{Type= MovementType.Down , Amount=7},
 new Movement{Type= MovementType.Forward , Amount=5},
