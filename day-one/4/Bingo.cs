@@ -26,7 +26,7 @@ namespace _4
 
         public bool PlayNextNumber(int number)
         {
-            
+            Console.WriteLine(number); 
             List<BingoGrid> wonGrids = new List<BingoGrid>();
             foreach (var grid in grids)
             {
